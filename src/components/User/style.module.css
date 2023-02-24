@@ -1,0 +1,43 @@
+.block_item{
+    background-color: #f7f1e3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.user_item{
+    padding: 10px;
+    width: 110px;
+    height: 130px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+
+
+}
+.img{
+   width: 60px;
+   height: 80px;
+   /* aspect-ratio: 1; */
+}
+.btn_del{
+    position: absolute;
+    display: none;
+    top: -15px;
+    right: -30px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.block_item:hover .btn_del{
+    display: block;
+}

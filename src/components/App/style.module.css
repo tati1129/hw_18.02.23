@@ -1,0 +1,11 @@
+.block{
+    /* display: block; */
+    /* position: fixed; */
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    min-height: 760px;
+
+}

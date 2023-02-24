@@ -1,0 +1,20 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-top: 10px;
+}
+.block_mens, .block_women{
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #34495e;
+    display: flex;
+    flex-direction: column;
+}
+.caption{
+    padding-left: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}

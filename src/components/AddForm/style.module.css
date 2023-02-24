@@ -1,0 +1,43 @@
+.container{
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    /* width: 1200px; */
+    background-color: #34495e;
+    border-radius: 15px;
+    
+}
+
+.form_block{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 2fr 150px 80px;
+
+}
+.form_block input, .add_btn{
+    border-radius: 5px;
+    padding: 15px;
+    border:  none;
+    
+}
+.gend{
+    padding-left: 15px;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.gend_select{
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    
+}
+.add_btn{
+    background-color: #1abc9c;
+    color: white;
+}
+.add_btn:active{
+    background-color:#218c74;
+}

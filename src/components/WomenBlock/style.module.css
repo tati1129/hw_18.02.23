@@ -1,0 +1,6 @@
+.block_woman{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+
+}
